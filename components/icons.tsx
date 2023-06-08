@@ -1,15 +1,21 @@
 import {
+  ChevronLeft,
+  Loader2,
+  LogOut,
   LucideProps,
   Moon,
   SunMedium,
   Twitter,
   type Icon as LucideIcon,
-} from "lucide-react"
+} from "lucide-react";
 
-export type Icon = LucideIcon
+export type Icon = LucideIcon;
 
 export const Icons = {
+  logout: LogOut,
   sun: SunMedium,
+  chevronLeft: ChevronLeft,
+  spinner: Loader2,
   moon: Moon,
   twitter: Twitter,
   logo: (props: LucideProps) => (
@@ -28,4 +34,4 @@ export const Icons = {
       ></path>
     </svg>
   ),
-}
+};
