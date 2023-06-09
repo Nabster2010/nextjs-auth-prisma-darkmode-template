@@ -2,6 +2,8 @@
 
 # dependencies
 node_modules
+
+
 .pnp
 .pnp.js
 
@@ -35,3 +37,8 @@ yarn-error.log*
 
 .contentlayer
 .env
+
+
+#database
+migrations
+dev.db
