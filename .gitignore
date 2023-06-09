@@ -40,5 +40,5 @@ yarn-error.log*
 
 
 #database
-migrations
-dev.db
+prisma/migrations
+prisma/dev.db
